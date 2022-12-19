@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
     selector: 'app-contador',
     template: `
 <h1>{{title}}</h1>
-<h3>The base is :<strong>{{base}}</strong></h3>
+<h3>The base is : <strong>{{base}}</strong></h3>
 <button (click)="calc(base)">+ {{base}}</button>
 <span>{{number}}</span>
 <button (click)="calc(-base)">- {{base}}</button>
